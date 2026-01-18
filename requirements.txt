@@ -3,3 +3,4 @@ uvicorn
 notion-client==2.7.0
 openai
 python-dotenv
+python-multipart==0.0.6
