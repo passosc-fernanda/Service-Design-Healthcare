@@ -126,4 +126,3 @@ def clear_run_ai(page_id):
             "run_ai": {"checkbox": False}
         }
     )
-

@@ -1,3 +1,5 @@
+fastapi
+uvicorn
+notion-client
 openai
-notion-client==2.0.0
 python-dotenv
