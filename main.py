@@ -35,8 +35,9 @@ def run():
             for task in tasks:
                 answer = ask_ai(
                     question=task["question"],
-                    context_pages=pages
+                    summaries=[p["summary"] for p in pages]
                 )
+
 
                 write_answer_property(task["page_id"], answer)
                 clear_run_ai(task["page_id"])
