@@ -7,6 +7,7 @@ load_dotenv()
 notion = Client(auth=os.getenv("NOTION_TOKEN"))
 DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
 
+print("DEBUG DEPLOY")
 
 def get_pages_and_summaries():
     response = notion.databases.query(database_id=DATABASE_ID)
